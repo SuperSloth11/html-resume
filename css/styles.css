@@ -1,33 +1,49 @@
 body {
   background-color: #222831;
-  color: #EEEEEE;
+  color: #eeeeee;
   line-height: 1.25;
   font-family: sans-serif;
+  font-size: 1.15rem;
 }
 
 a:link {
-  color: #548CA8;
+  color: #548ca8;
 }
 
 a:visited {
-  color: #3E497A;
+  color: #a26769;
 }
 
 a:hover {
-  color: #FFD369;
+  color: #ffd369;
 }
 
 hr {
   border-style: dotted none none;
-  border-color: #FFD369;
+  border-color: #9eb3c2;
   border-width: 5px;
   width: 5%;
 }
 
 h1 {
-  color: #FFD369;
+  color: #ffd369;
+}
+
+h2 {
+  color: #ffd369;
 }
 
 h3 {
-  color: #FFD369;
+  color: #0a8754;
+}
+
+.header {
+  text-align: center;
+  margin: auto;
+}
+
+footer a {
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  display: inline-block;
 }
